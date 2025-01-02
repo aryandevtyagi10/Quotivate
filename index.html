@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="q-container" id="q-container">
+        <!-- Quote  -->
+         <div class="q-text">
+            <i class="fas fa-quote-left"> </i>
+
+            <span id="insertQuoteHere" /> People underestimate the power of nostalgia. Nostalgia is truly one of the greatest human weaknesses, second only to the neck.</span>
+           
+         </div>
+         <div class="q-author">
+            <span id="author" >~Anonymous</span>
+         </div>
+         <div class="button-container">
+            <button class="twitter-button" id="twitter-button" onclick='tweetQuote()' title="Tweeet-this!">
+                <i class="fab fa-twitter"></i>
+                    <button id="new-quote" onclick='getQuote()' title="Quote!">Another Quote</button>
+            </button>
+            <!-- <button onclick='getQuote()'>AnotherQ</button> -->
+<!-- <div id='insertQuoteHere' /> -->
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
